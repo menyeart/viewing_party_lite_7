@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.themoviedb.org/3/search/movie?query=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer DONT_LOOK_AT_MY_JUNK
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - openresty
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - 0ad04c4a8f86817194f97d0815bf2d05
+      X-Memc-Age:
+      - '2380'
+      X-Memc-Expires:
+      - '19220'
+      Date:
+      - Fri, 24 Mar 2023 21:45:15 GMT
+      Cache-Control:
+      - public, max-age=28800
+      Etag:
+      - W/"0e23279b004381f72a34159d5c7dfd1f"
+      Vary:
+      - Accept-Encoding
+      - Origin
+      X-Cache:
+      - Hit from cloudfront
+      Via:
+      - 1.1 5d351175d5947d478733fbecdab866f6.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - DEN52-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - 5GrbbCKWlJj-c4Nq9qKdjitSkxbat28i8ZoJOI_VyicxCOgDo1LnMg==
+      Age:
+      - '2965'
+    body:
+      encoding: UTF-8
+      string: '{"page":1,"results":[],"total_pages":1,"total_results":0}'
+  recorded_at: Fri, 24 Mar 2023 22:34:40 GMT
+recorded_with: VCR 6.1.0

@@ -1,0 +1,175 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.themoviedb.org/3/search/movie?query=God
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer DONT_LOOK_AT_MY_JUNK
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Date:
+      - Fri, 24 Mar 2023 21:45:23 GMT
+      Server:
+      - openresty
+      Cache-Control:
+      - public, max-age=28800
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - cee379585b21e6027af8a75295cd16be
+      X-Memc-Age:
+      - '3670'
+      X-Memc-Expires:
+      - '17930'
+      Etag:
+      - W/"b1dcb6b29fd7b825d6ef884e5d4454d1"
+      Vary:
+      - Accept-Encoding
+      - Origin
+      X-Cache:
+      - Hit from cloudfront
+      Via:
+      - 1.1 8a50fe9452625079391cf0ce7a3e0c56.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - DEN52-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - pLYrNMRKsEtSW3KYP6I2t0UQfdjO_F7WilzV_nAQ3fUT7pPxO8Wk1w==
+      Age:
+      - '2967'
+    body:
+      encoding: UTF-8
+      string: '{"page":1,"results":[{"adult":false,"backdrop_path":"/wybmSmviUXxlBmX44gtpow5Y9TB.jpg","genre_ids":[28,35,14],"id":594767,"original_language":"en","original_title":"Shazam!
+        Fury of the Gods","overview":"Billy Batson and his foster siblings, who transform
+        into superheroes by saying \"Shazam!\", are forced to get back into action
+        and fight the Daughters of Atlas, who they must stop from using a weapon that
+        could destroy the world.","popularity":1172.239,"poster_path":"/3GrRgt6CiLIUXUtoktcv1g2iwT5.jpg","release_date":"2023-03-15","title":"Shazam!
+        Fury of the Gods","video":false,"vote_average":7.0,"vote_count":217},{"adult":false,"backdrop_path":null,"genre_ids":[18],"id":494892,"original_language":"en","original_title":"God","overview":"A
+        psych-drama-thriller combo that tackles shady politicians, leaked documents
+        and a lack of enthusiasm for religion.","popularity":0.698,"poster_path":"/4np8KzfT7XHgwQT5sJTRogqIn0s.jpg","release_date":"2016-12-29","title":"God","video":false,"vote_average":8.429,"vote_count":7},{"adult":false,"backdrop_path":null,"genre_ids":[35],"id":197806,"original_language":"en","original_title":"God","overview":"Talking
+        to the camera, Margaret tells us about her friendship with God. \"We talk
+        every day,\" she explains. And at that moment, her phone rings, and it''s
+        God on the line. God''s gossip is the best, Margaret tells us. Then, we see
+        what happens to her when she and God have a falling out. Can they patch it
+        up? Is she sane?","popularity":1.958,"poster_path":"/la0eOA49YtQfffTwQFFFVIJCh5u.jpg","release_date":"1998-01-01","title":"God","video":false,"vote_average":6.643,"vote_count":7},{"adult":false,"backdrop_path":"/wqpTrmGiqMJ6onAq3zrBhfomIJl.jpg","genre_ids":[16,12,35,14],"id":532067,"original_language":"ja","original_title":"映画
+        この素晴らしい世界に祝福を！紅伝説","overview":"It is not strange that the Demon Lord''s forces
+        fear the Crimson Demons, the clan from which Megumin and Yunyun originate.
+        Even if the Demon Lord''s generals attack their village, the Crimson Demons
+        can just easily brush them off with their supreme mastery of advanced and
+        overpowered magic.  When Yunyun receives a seemingly serious letter regarding
+        a potential disaster coming to her hometown, she immediately informs Kazuma
+        Satou and the rest of his party. After a series of wacky misunderstandings,
+        it turns out to be a mere prank by her fellow demon who wants to be an author.
+        Even so, Megumin becomes worried about her family and sets out toward the
+        Crimson Demons'' village with the gang.  There, Kazuma and the others decide
+        to sightsee the wonders of Megumin''s birthplace. However, they soon come
+        to realize that the nonsense threat they received might have been more than
+        just a joke.","popularity":80.347,"poster_path":"/j73LuQcA21KvkVFcroWWMN8tTJv.jpg","release_date":"2019-08-30","title":"KonoSuba:
+        God''s Blessing on this Wonderful World! Legend of Crimson","video":false,"vote_average":8.152,"vote_count":446},{"adult":false,"backdrop_path":"/yIDS5QLvKtgzfu43eUWx5JkGW6p.jpg","genre_ids":[16,28,878],"id":126963,"original_language":"ja","original_title":"ドラゴンボールZ
+        神と神","overview":"The events of Battle of Gods take place some years after
+        the battle with Majin Buu, which determined the fate of the entire universe.
+        After awakening from a long slumber, Beerus, the God of Destruction is visited
+        by Whis, his attendant and learns that the galactic overlord Frieza has been
+        defeated by a Super Saiyan from the North Quadrant of the universe named Goku,
+        who is also a former student of the North Kai. Ecstatic over the new challenge,
+        Goku ignores King Kai''s advice and battles Beerus, but he is easily overwhelmed
+        and defeated. Beerus leaves, but his eerie remark of \"Is there nobody on
+        Earth more worthy to destroy?\" lingers on. Now it is up to the heroes to
+        stop the God of Destruction before all is lost.","popularity":76.927,"poster_path":"/nxZEdYcHMuD8SSuwusDnK9CD2H1.jpg","release_date":"2013-03-30","title":"Dragon
+        Ball Z: Battle of Gods","video":false,"vote_average":6.797,"vote_count":1335},{"adult":false,"backdrop_path":null,"genre_ids":[99],"id":763789,"original_language":"pt","original_title":"GOD","overview":"Work
+        by Sofia Caetano.","popularity":0.6,"poster_path":"/odqmePV6EqJ3DFpZ8WWXT18Mxhv.jpg","release_date":"2017-12-16","title":"GOD","video":false,"vote_average":1.5,"vote_count":2},{"adult":false,"backdrop_path":"/m1yUEkEN3OWVxAKgDESWnIGyxHh.jpg","genre_ids":[18],"id":712698,"original_language":"en","original_title":"God","overview":"Submersed
+        in \"bro\" culture, a fraternity brother''s obsession with a poem and its
+        poetess begin to inform him more about himself than he is ready to accept.","popularity":1.064,"poster_path":"/3AAhmZthxBdkLfuIEDrTc8O49xo.jpg","release_date":"2019-08-28","title":"God","video":false,"vote_average":4.429,"vote_count":7},{"adult":false,"backdrop_path":null,"genre_ids":[],"id":516754,"original_language":"en","original_title":"GOD","overview":"Game
+        of Death - Bruce Lee Cut","popularity":0.6,"poster_path":null,"release_date":"","title":"GOD","video":false,"vote_average":10.0,"vote_count":2},{"adult":false,"backdrop_path":"/q3j4OQFFDKM6fdQt9gE56kfDBNG.jpg","genre_ids":[16,878,28,12],"id":536115,"original_language":"ja","original_title":"GODZILLA
+        星を喰う者","overview":"With no means for defeating Godzilla Earth, mankind watches
+        as King Ghidorah, clad in a golden light, descends on the planet. The heavens
+        and earth shake once again as the war moves to a higher dimension.","popularity":25.295,"poster_path":"/fOA44BITFth0u4hMSOUgpK0kM6t.jpg","release_date":"2018-11-09","title":"Godzilla:
+        The Planet Eater","video":false,"vote_average":6.406,"vote_count":249},{"adult":false,"backdrop_path":"/c5iPQhmZaq8eC8duhPTN373duEr.jpg","genre_ids":[18,9648,53],"id":890980,"original_language":"es","original_title":"Los
+        renglones torcidos de Dios","overview":"Alice Gould, a private investigator,
+        pretends to be mentally ill in order to enter a psychiatric hospital and gather
+        evidence for the case she is working on: the death of a patient in unclear
+        circumstances.","popularity":38.245,"poster_path":"/n3X9tWYFYfE96BoNgtVffuwzQo.jpg","release_date":"2022-10-06","title":"God''s
+        Crooked Lines","video":false,"vote_average":7.377,"vote_count":412},{"adult":false,"backdrop_path":"/wyv2Y9vXYJwJzF6cNVuVwVOsOUj.jpg","genre_ids":[18,14,28],"id":397567,"original_language":"ko","original_title":"신과함께-죄와
+        벌","overview":"Having died unexpectedly, firefighter Ja-hong is taken to the
+        afterlife by 3 afterlife guardians. Only when he passes 7 trials over 49 days
+        and proves he was innocent in human life, he’s able to reincarnate, and his
+        3 afterlife guardians are by his side to defend him in trial.","popularity":59.916,"poster_path":"/gJSvIsI6oQfFim0PGyuuiCYfqKs.jpg","release_date":"2017-12-14","title":"Along
+        with the Gods: The Two Worlds","video":false,"vote_average":8.108,"vote_count":807},{"adult":false,"backdrop_path":"/ul4WiN9EJxsMokdg7z4Y6iisvHS.jpg","genre_ids":[14,28,12],"id":518068,"original_language":"ko","original_title":"신과함께-인과
+        연","overview":"As the deceased soul Ja-hong and his three afterlife guardians
+        prepare for their remaining trials for reincarnation, the guardians soon come
+        face to face with the truth of their tragic time on Earth 1,000 years earlier.","popularity":60.495,"poster_path":"/9BnqBHFGDv3WlCPB2qQwzAWdy7y.jpg","release_date":"2018-08-01","title":"Along
+        with the Gods: The Last 49 Days","video":false,"vote_average":8.213,"vote_count":471},{"adult":false,"backdrop_path":"/mu4q1jPLdW5hE7BWZEWRvuAh3ZN.jpg","genre_ids":[16,878],"id":492719,"original_language":"ja","original_title":"GODZILLA
+        決戦機動増殖都市","overview":"Humanity''s desperate battle to reclaim the Earth from
+        Godzilla continues. The key to defeating the King of the Monsters may be Mechagodzilla,
+        a robotic weapon thought to have been lost nearly 20,000 years ago.","popularity":15.319,"poster_path":"/8y1YhD6niL3aMfeEPhStHMWdPxH.jpg","release_date":"2018-05-18","title":"Godzilla:
+        City on the Edge of Battle","video":false,"vote_average":6.435,"vote_count":269},{"adult":false,"backdrop_path":"/b1L7qevxiVpkVFq4dmdQPGFPWH0.jpg","genre_ids":[27],"id":836225,"original_language":"en","original_title":"The
+        Exorcism of God","overview":"An American priest working in Mexico is considered
+        a saint by many local parishioners. However, due to a botched exorcism, he
+        carries a secret that’s eating him alive until he gets an opportunity to face
+        his demon one final time.","popularity":129.367,"poster_path":"/9X9wKbF0ED1AQpgIkvq0MG4Y4wi.jpg","release_date":"2022-03-11","title":"The
+        Exorcism of God","video":false,"vote_average":7.183,"vote_count":807},{"adult":false,"backdrop_path":"/5QAc8dsyOwJBGQ71mhOLMEivOsF.jpg","genre_ids":[28,878,16],"id":449574,"original_language":"ja","original_title":"GODZILLA
+        怪獣惑星","overview":"A desperate group of refugees attempts to recolonize Earth
+        20,000 years after Godzilla took over. But one young man wants revenge above
+        all else.","popularity":19.934,"poster_path":"/hAuZ7g6TqDLv5fOqXIPgYRguOkm.jpg","release_date":"2017-11-17","title":"Godzilla:
+        Planet of the Monsters","video":false,"vote_average":6.262,"vote_count":399},{"adult":false,"backdrop_path":"/4PKfa0zltSrp1BJoLl8zfvYXaac.jpg","genre_ids":[16,28,14],"id":663558,"original_language":"zh","original_title":"新神榜：哪吒重生","overview":"While
+        living as an ordinary deliveryman and motor racing fan, Nezha encounters old
+        nemeses and must rediscover his powers to protect his loved ones.","popularity":47.634,"poster_path":"/lBfBMeNJFfUvpkQsXsMwjcbNcp2.jpg","release_date":"2021-02-06","title":"New
+        Gods: Nezha Reborn","video":false,"vote_average":8.078,"vote_count":341},{"adult":false,"backdrop_path":"/1awUOlTXQDyDcKUZpxhFBV8MCDX.jpg","genre_ids":[28,16,14],"id":83091,"original_language":"ja","original_title":"聖闘士星矢
+        神々の熱き戦い","overview":"In Siberia, Hyōga saves a man that is being attacked.
+        Injured, the man manages only to say something about Asgard. Some days later,
+        Saori, Seiya, Shiryū and Shun are wondering about Hyōga and decide to go to
+        Asgard to investigate. At Valhalla, the Lord of Asgard, Dolbar, says he has
+        not heard of any Hyōga and neither has his right hand, Loki. However, at all
+        times Seiya and the others can feel an evil cosmo emanating from Loki and
+        the other Odin Saints called God Warriors. Shiryū, in particular, notices
+        a familiar cosmo coming from Midgard, a mysterious, masked God Warrior. Dolbar
+        makes it clear that he is trying to take control of both Asgard and the Sanctuary,
+        imprisoning Athena in a strange dimension within the giant statue of Odin.
+        Midgard reveals himself as Hyōga and tries to kill Shiryū to prove himself
+        to Dolbar. Thus, it is the task of the Bronze Saints to defeat Dolbar, Loki
+        and the rest of the God Warriors, to save Athena and Hyōga.","popularity":31.585,"poster_path":"/zwL4R8y2b18nLe8q0OgSr5vbnnc.jpg","release_date":"1988-03-12","title":"Saint
+        Seiya: The Heated Battle of the Gods","video":false,"vote_average":7.445,"vote_count":137},{"adult":false,"backdrop_path":"/61zVzhJ1BnvYiC7THoLf4jyrxBw.jpg","genre_ids":[80,18],"id":73475,"original_language":"de","original_title":"Der
+        Ruf der blonden Göttin","overview":"Susan arrives in Haiti to live with her
+        husband Jack, who lives with a lesbian housekeeper and Olga, a nymphomaniac
+        platinum blonde, introduced to her as Jack''s sister. Susan begins to have
+        nightmares about voodoo ceremonies and murder.","popularity":37.69,"poster_path":"/4M1TMBzg9FZvRQkvcf8nQLSclu5.jpg","release_date":"1977-12-09","title":"Call
+        of the Blonde Goddess","video":false,"vote_average":4.672,"vote_count":29},{"adult":false,"backdrop_path":"/q4k9UDHE5foTcs48zpqJbpLUDNU.jpg","genre_ids":[28,16,14],"id":83090,"original_language":"ja","original_title":"聖闘士星矢","overview":"When
+        Seiya, Hyōga and Shun visit Saori (Athena) at the orphanage, they meet an
+        employee called Eri. An orphan herself, Eri takes a liking to Hyōga and one
+        night they sit outside watching the stars. They see a shooting star and Hyōga
+        asks Eri to make a wish. After Hyōga leaves, however, Eri becomes powerfully
+        attracted to the shooting star and wanders alone into the woods, where she
+        finds a golden apple. She is then possessed by Eris, the Goddess of Discord,
+        and kidnaps Athena, planning to use the golden apple to suck her energy out,
+        fully reincarnate and take over the world. Eris leaves a message for the Bronze
+        Saints, who set out for the goddess''s temple which appears on the mountains.
+        There, the heroes fight the five Ghost Saints: Maya of Sagitta, Orpheus of
+        Lyra, Christ of the Southern Cross, Jan of Scutum (called by the Japanese
+        name Tateza) and Jäger of Orion.","popularity":36.939,"poster_path":"/44Ni4sNvXkyRAh2ayuE07CV0lE5.jpg","release_date":"1987-07-18","title":"Saint
+        Seiya: Evil Goddess Eris","video":false,"vote_average":7.103,"vote_count":175},{"adult":false,"backdrop_path":"/1uhf2qYd7wBcOsTJ7Li1FcH672D.jpg","genre_ids":[53,18],"id":880313,"original_language":"es","original_title":"La
+        ira de Dios","overview":"Convinced the tragic deaths of her loved ones were
+        orchestrated by a famous novelist she worked for, Luciana turns to a journalist
+        to expose her truth.","popularity":29.253,"poster_path":"/lFhxNXEK0UpXXqSbhba83Zhl2uk.jpg","release_date":"2022-06-15","title":"The
+        Wrath of God","video":false,"vote_average":6.372,"vote_count":156}],"total_pages":154,"total_results":3079}'
+  recorded_at: Fri, 24 Mar 2023 22:34:40 GMT
+recorded_with: VCR 6.1.0

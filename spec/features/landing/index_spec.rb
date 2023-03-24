@@ -22,6 +22,8 @@ RSpec.describe type: :feature do
       end
 
       it "displays a list of existing users as a link" do
+        save_and_open_page
+        
         expect(page).to have_link(phil.name.to_s)
         expect(page).to have_link(amy.name.to_s)
         expect(page).to have_link(zoidberg.name.to_s)
