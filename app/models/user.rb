@@ -2,7 +2,10 @@
 
 class User < ApplicationRecord
   validates_presence_of :name,
-                        :email
+                        :email,
+                        :password_digest
+  has_secure_password
+
   validates :email, uniqueness: true
 
   has_many :viewing_party_users
