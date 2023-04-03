@@ -5,4 +5,5 @@
    <li> <%= link_to "#{user.name}", user_path(user), local: true %></li>
   <% end %>
 </ul>
+<%= link_to "Log In", login_path, local: true %>
 <%= button_to "Create New User", '/register' , method: :get, local: true %>
