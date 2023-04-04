@@ -24,4 +24,15 @@ RSpec.describe "User Login Form Page" do
     expect(current_path).to eq(login_path)
     expect(page).to have_content("Sorry, your credentials are bad.")
   end
+
+  it "should show a list of user emails if the user is logged in" do
+    visit root_path
+    click_link "Log In"
+    fill_in :email, with: "philipjfry@gmail.com"
+    fill_in :password, with: "password"
+    click_button "Log In"
+    visit root_path
+
+    expect(page).to have_content("philipjfry@gmail.com")
+  end
 end

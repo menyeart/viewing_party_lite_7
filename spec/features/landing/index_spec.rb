@@ -21,18 +21,6 @@ RSpec.describe type: :feature do
         expect(page).to have_button("Create New User")
       end
 
-      it "displays a list of existing users as a link" do
-        expect(page).to have_link(phil.name.to_s)
-        expect(page).to have_link(amy.name.to_s)
-        expect(page).to have_link(zoidberg.name.to_s)
-      end
-
-      it "when I click a user link I am taken to the users dashboard" do
-        click_link "Phil"
-
-        expect(current_path).to eq(user_path(phil))
-      end
-
       it "displays a link to go back to the landing page" do
         expect(page).to have_link("Landing Page")
         click_link "Landing Page"

@@ -13,6 +13,7 @@ RSpec.describe type: :feature do
 
       it "displays a button to create a new viewing party" do
         expect(current_path).to eq("/users/#{phil.id}/movies/238")
+        allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(phil)
         expect(page).to have_button("Create Viewing Party")
 
         click_button "Create Viewing Party"
