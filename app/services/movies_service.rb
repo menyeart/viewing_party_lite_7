@@ -2,7 +2,7 @@ require "faraday"
 class MoviesService
   def self.connection
     url = "https://api.themoviedb.org"
-    Faraday.new(url:, headers: { "Authorization" => "Bearer #{ENV['movie_token']}" })
+    Faraday.new(url: url, headers: { "Authorization" => "Bearer #{ENV['movie_token']}" })
   end
 
   def self.parse_api(arg)

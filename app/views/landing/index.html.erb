@@ -2,8 +2,12 @@
 <h1>Viewing Party</h1>
 <ul>
   <% @users.each do |user| %>
-   <li> <%= link_to "#{user.name}", user_path(user), local: true %></li>
+   <li> <%= user.email %><%#  <%= link_to "#{user.name}", user_path(user), local: true %></li> 
   <% end %>
 </ul>
-<%= link_to "Log In", login_path, local: true %>
-<%= button_to "Create New User", '/register' , method: :get, local: true %>
+<% if current_user %>
+  <%= link_to "Log Out", logout_path%>
+<% else %>
+  <%= link_to "Log In", login_path %>
+  <%= button_to "Create New User", '/register' , method: :get, local: true %>
+<% end %>
