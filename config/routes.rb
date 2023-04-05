@@ -10,12 +10,14 @@ Rails.application.routes.draw do
   
   get "/logout", to: "users#logout_user"
 
-  get "/dashboard", to: "dashboard#index"
+  get "/dashboard", to: "users#show"
+
+  get "admin/dashboard", to: "admin/dashboard#show"
 
   namespace :auth do
     resources :movies, only: [:show]
   end
-  resources :users, only: %i[show create] do
+  resources :users, only: %i[create] do
     resources :discover, only: [:index]
     resources :movies, only: %i[index show] do
       resources :viewing_party, only: %i[new create]

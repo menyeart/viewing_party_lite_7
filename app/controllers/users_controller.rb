@@ -1,7 +1,14 @@
 class UsersController < ApplicationController
   def show
-    @user = User.find(params[:id])
-    # @viewing_parties = ViewingParties.where("viewing_parties.id = #{@user.id}")
+    if current_admin?
+      @user = User.find(current_user.id)
+      redirect_to admin_dashboard_path
+    elsif current_user == nil
+      flash[:error] = "You must be logged in to visit the dashboard"
+      redirect_to root_path
+    else
+      @user = User.find(current_user.id)
+    end
   end
 
   def new
@@ -15,7 +22,7 @@ class UsersController < ApplicationController
       flash[:error] = "Passwords do not match"
     elsif @new_user.save
       session[:user_id] = @new_user.id
-      redirect_to "/users/#{@new_user.id}"
+      redirect_to "/dashboard"
     else
       redirect_to "/register"
       flash[:error] = error_message(@new_user.errors)
@@ -30,7 +37,7 @@ class UsersController < ApplicationController
     if user.authenticate(params[:password])
       session[:user_id] = user.id
       flash[:success] = "Welcome, #{user.name}!"
-      redirect_to user_path(user.id)
+      redirect_to dashboard_path
     else
       flash[:error] = "Sorry, your credentials are bad."
       render :login_form

@@ -11,20 +11,26 @@ RSpec.describe type: :feature do
   describe "User dashboard" do
     before :each do
       ViewingPartyUser.create!(user_id: phil.id, viewing_party_id: spirited_away.id)
-      visit user_path(phil)
     end
 
     describe "As a visitor" do
       it "displays the appropriate users name" do
+        allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(phil)
+        visit dashboard_path
+   
         expect(page).to have_content("Philip's Dashboard")
         expect(page).to_not have_content("Amy's Dashboard")
       end
 
       it "displays a button to discover movies" do
+        allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(phil)
+        visit dashboard_path
         expect(page).to have_button("Discover Movies")
       end
 
       it "displays a section that lists viewing parties" do
+        allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(phil)
+        visit dashboard_path
         expect(page).to have_content("Viewing Parties:")
         expect(page).to have_content("Movie id: #{spirited_away.movie_id}")
         expect(page).to have_content("Date: #{spirited_away.date}")

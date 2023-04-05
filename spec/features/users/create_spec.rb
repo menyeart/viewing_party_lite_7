@@ -13,7 +13,7 @@ RSpec.describe "User Registration Page" do
     new_user = User.last
     expect(new_user).to_not have_attribute(:password)
     expect(new_user.password_digest).to_not eq("password")
-    expect(current_path).to eq(user_path(new_user))
+    expect(current_path).to eq("/dashboard")
     expect(page).to have_content("Matt Smith")
   end
 

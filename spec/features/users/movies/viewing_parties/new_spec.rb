@@ -33,7 +33,7 @@ RSpec.describe "Viewing Party New Page" do
       fill_in "Start time", with: "3:00pm"
       click_button "Create Party"
 
-      expect(current_path).to eq(user_path(phil))
+      expect(current_path).to eq(dashboard_path)
     end
 
     it "should remain on the same page and notify the user if invalid information is entered" do

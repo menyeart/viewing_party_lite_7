@@ -18,7 +18,7 @@ class ViewingPartyController < ApplicationController
       # params["email"].each do |email|
       #   ViewingPartyUser.create!(user_id: User.where("users.email = '#{email.to_s.gsub("{:value=>", "").tr!("\"","").tr!("}","")}'").id, viewing_party_id: @new_party.id)
       # end
-      redirect_to user_path(@user)
+      redirect_to dashboard_path
     else
       redirect_to new_user_movie_viewing_party_path(@user, @movie.detailed_movie.movie_id_show)
       flash[:error] = error_message(@new_party.errors)
