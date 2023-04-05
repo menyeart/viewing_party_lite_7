@@ -12,7 +12,7 @@ RSpec.describe "Logging Out" do
       fill_in :password, with: user.password
 
       click_on "Login"
-      expect(current_path).to eq(user_path(user))
+      expect(current_path).to eq(dashboard_path)
       
       click_link "Landing Page"
      
@@ -33,7 +33,7 @@ RSpec.describe "Logging Out" do
       fill_in :password, with: user.password
 
       click_on "Login"
-      expect(current_path).to eq(user_path(user))
+      expect(current_path).to eq(dashboard_path)
       
       click_link "Landing Page"
 

@@ -12,7 +12,7 @@ RSpec.describe type: :feature do
     before :each do
       ViewingPartyUser.create!(user_id: phil.id, viewing_party_id: spirited_away.id)
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(phil)
-      visit user_path(phil)
+      visit dashboard_path
     end
 
     describe "As a visitor" do

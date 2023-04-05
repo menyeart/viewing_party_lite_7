@@ -44,7 +44,7 @@ RSpec.describe type: :feature do
       end
 
       it "will not let you visit the dashboard without being logged in" do
-        visit user_path(phil)
+        visit dashboard_path(phil)
 
         expect(current_path).to eq(root_path)
         expect(page).to have_content("You must be logged in to access your dashboard.")
