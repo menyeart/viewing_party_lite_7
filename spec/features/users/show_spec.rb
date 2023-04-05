@@ -3,14 +3,15 @@
 require "rails_helper"
 
 RSpec.describe type: :feature do
-  let!(:phil) { User.create!(name: "Philip", email: "philipjfry@gmail.com") }
-  let!(:amy) { User.create!(name: "Amy", email: "amy_from_mars@gmail.com") }
+  let!(:phil) { User.create!(name: "Philip", email: "philipjfry@gmail.com", password: "ilovejade") }
+  let!(:amy) { User.create!(name: "Amy", email: "amy_from_mars@gmail.com", password: "imfrommars") }
 
   Timecop.freeze(Time.now)
   let!(:spirited_away) { ViewingParty.create!(date: "05/28/2023", start_time: Time.now, duration: 2, movie_id: 1, host_id: amy.id) }
   describe "User dashboard" do
     before :each do
       ViewingPartyUser.create!(user_id: phil.id, viewing_party_id: spirited_away.id)
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(phil)
       visit user_path(phil)
     end
 

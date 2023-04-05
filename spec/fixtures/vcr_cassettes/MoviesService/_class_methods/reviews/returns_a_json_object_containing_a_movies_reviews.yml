@@ -26,37 +26,37 @@ http_interactions:
       - chunked
       Connection:
       - keep-alive
+      Date:
+      - Tue, 04 Apr 2023 17:53:31 GMT
       Server:
       - openresty
+      Cache-Control:
+      - public, max-age=27378
       X-Memc:
       - HIT
       X-Memc-Key:
       - f393aa4aefe6bf5c800f6c8dd66ef2f2
       X-Memc-Age:
-      - '7759'
+      - '8625'
       X-Memc-Expires:
-      - '7460'
-      Date:
-      - Fri, 24 Mar 2023 21:45:16 GMT
-      Cache-Control:
-      - public, max-age=28800
+      - '14257'
       Etag:
-      - W/"e6d6f7895416bb7a7beb10330bc76355"
+      - W/"a029e8f47a1b9b1666e91ebf9f323161"
       Vary:
       - Accept-Encoding
       - Origin
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 96725c0e4ced177a38df871e7cc48a4a.cloudfront.net (CloudFront)
+      - 1.1 1c13683c7de319f25e08f83861fc6dc2.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - ZCw5CyjbHTX9vesb-31oKYD3HHyS2iVsUVD-g0fMpTosQx10FcScFA==
+      - "-ukT2LQylOlq4SO2D01vqGQuKm5fnCQxXb7xleLWjNFXBDndhMkvMQ=="
       Age:
-      - '8'
+      - '17133'
     body:
       encoding: UTF-8
       string: '{"id":238,"page":1,"results":[{"author":"futuretv","author_details":{"name":"","username":"futuretv","avatar_path":"/https://www.gravatar.com/avatar/f44259356bf6110070ed799323d539d6.jpg","rating":10.0},"content":"The
@@ -102,6 +102,20 @@ http_interactions:
         best movie ever...\r\nA masterpiece by the young and talented Francis Ford
         Coppola, about a Mob family and their drama, the story telling is perfect,
         the acting good, sometimes a little over the top in the case of Thalia Shire
-        (the sister of the director)\r\n\r\nThe 70''s were the best years for Hollywood.","created_at":"2022-07-18T23:18:07.748Z","id":"62d5ea2fe93e95095cbddefe","updated_at":"2022-07-26T14:21:07.910Z","url":"https://www.themoviedb.org/review/62d5ea2fe93e95095cbddefe"}],"total_pages":1,"total_results":2}'
-  recorded_at: Fri, 24 Mar 2023 21:45:15 GMT
+        (the sister of the director)\r\n\r\nThe 70''s were the best years for Hollywood.","created_at":"2022-07-18T23:18:07.748Z","id":"62d5ea2fe93e95095cbddefe","updated_at":"2022-07-26T14:21:07.910Z","url":"https://www.themoviedb.org/review/62d5ea2fe93e95095cbddefe"},{"author":"drystyx","author_details":{"name":"","username":"drystyx","avatar_path":"/hLLsAvAnVT0cFU7JuuaaItTWXv8.jpg","rating":1.0},"content":"While
+        I''m writing this, The Godfather is still beloved by people who love it simply
+        because they are told they have to love it. \r\nIt''s written by a mobster
+        with the sole intention of depicting the lead mobsters as demi gods. Every
+        line and every scene in the movie and the book is meant to intimidate people
+        into thinking the \"Mafia\" and really any mob, is a supernatural force.\r\nThis
+        is a movie glorifying control freaks, and most critics are control freaks,
+        and most critics are either in the mob or think they can join the mob.\r\nThe
+        movie itself is dull and totally uninspiring, not to mention totally uninspired.
+        For fifty years, the sheep have been cowing to the control freaks who tell
+        them to love this movie that degrades them. \r\nThere just isn''t anything
+        favorable about this movie. It owes its success to people who have interests
+        in the movie or think they can get brownie points with such people. It''s
+        totally Hollywood in its depressing nature, and even in the seventies it was
+        a formula film.","created_at":"2023-04-02T03:49:51.130Z","id":"6428fb5f60975000eb3e9c39","updated_at":"2023-04-03T16:45:04.834Z","url":"https://www.themoviedb.org/review/6428fb5f60975000eb3e9c39"}],"total_pages":1,"total_results":3}'
+  recorded_at: Tue, 04 Apr 2023 22:38:36 GMT
 recorded_with: VCR 6.1.0

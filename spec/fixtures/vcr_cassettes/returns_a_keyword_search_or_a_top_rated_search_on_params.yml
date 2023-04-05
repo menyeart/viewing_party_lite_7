@@ -33,13 +33,13 @@ http_interactions:
       X-Memc-Key:
       - 0ad04c4a8f86817194f97d0815bf2d05
       X-Memc-Age:
-      - '2380'
+      - '5370'
       X-Memc-Expires:
-      - '19220'
+      - '16230'
       Date:
-      - Fri, 24 Mar 2023 21:45:15 GMT
+      - Tue, 04 Apr 2023 22:38:36 GMT
       Cache-Control:
-      - public, max-age=28800
+      - public, max-age=22709
       Etag:
       - W/"0e23279b004381f72a34159d5c7dfd1f"
       Vary:
@@ -48,15 +48,15 @@ http_interactions:
       X-Cache:
       - RefreshHit from cloudfront
       Via:
-      - 1.1 ac79b9352835edad28c9b0bc7dd7f8b0.cloudfront.net (CloudFront)
+      - 1.1 77cfd797d789c3b8bc1b8f2f8a42a9c6.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - HzkYn2ToV9U5Kdh5wPXeYfJMNd_uEERzZT1iqiEqaM_qN-OfBwFBRw==
+      - H8n8YrLBAWf7gMxL0pdU2kbbgsfqh-tcODchQ5JXRbi_9UfH4MJAhA==
     body:
       encoding: UTF-8
       string: '{"page":1,"results":[],"total_pages":1,"total_results":0}'
-  recorded_at: Fri, 24 Mar 2023 21:45:15 GMT
+  recorded_at: Tue, 04 Apr 2023 22:38:36 GMT
 recorded_with: VCR 6.1.0

@@ -74,7 +74,7 @@ RSpec.describe MoviesFacade do
         movie_vote_average = @facade_1.vote_average(238)
 
         expect(movie_vote_average).to be_a(Float)
-        expect(movie_vote_average).to eq(8.712)
+        expect(movie_vote_average).to eq(8.711)
       end
     end
 
@@ -102,7 +102,7 @@ RSpec.describe MoviesFacade do
         reviews = facade.get_reviews(238)
 
         expect(reviews).to be_a(Array)
-        expect(reviews.count).to eq(2)
+        expect(reviews.count).to eq(3)
       end
     end
   end
@@ -114,7 +114,7 @@ RSpec.describe MoviesFacade do
         review_count = facade.get_review_count(238)
 
         expect(review_count).to be_a(Integer)
-        expect(review_count).to eq(2)
+        expect(review_count).to eq(3)
       end
     end
   end

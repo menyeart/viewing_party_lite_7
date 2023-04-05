@@ -27,36 +27,34 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Thu, 23 Mar 2023 17:40:06 GMT
+      - Tue, 04 Apr 2023 22:47:11 GMT
       Server:
       - openresty
       Cache-Control:
-      - public, max-age=28800
+      - public, max-age=23306
       X-Memc:
       - HIT
       X-Memc-Key:
       - 56a64f47f8106d7619e8171cd39534d0
       X-Memc-Age:
-      - '12144'
+      - '3752'
       X-Memc-Expires:
-      - '9456'
+      - '17851'
       Etag:
-      - W/"3ff909ef2c542db549cc8c3666c5072c"
+      - W/"d4668df16874e438b0d096780edb6428"
       Vary:
       - Accept-Encoding
       - Origin
       X-Cache:
-      - Hit from cloudfront
+      - Miss from cloudfront
       Via:
-      - 1.1 d09fd0ac0a8733df98f134da74eec098.cloudfront.net (CloudFront)
+      - 1.1 d9fe97589e952f97209f7a422c89d876.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - Uw4dk4-5mNPBrxUbF3Uh8IeVNue1ZuQ6LsjhqaFFqBftY7GwCT5yHQ==
-      Age:
-      - '27182'
+      - RdtRjz9CRJBLjUb_JihiyGkdtlcRR0YDPU0lNa4HKTgavUuswVVUkA==
     body:
       encoding: UTF-8
       string: '{"page":1,"results":[{"adult":false,"backdrop_path":"/tmU7GeKVybMWFButWEGl2M4GeiP.jpg","genre_ids":[18,80],"id":238,"original_language":"en","original_title":"The
@@ -64,19 +62,19 @@ http_interactions:
         fictional Italian-American Corleone crime family. When organized crime family
         patriarch, Vito Corleone barely survives an attempt on his life, his youngest
         son, Michael steps in to take care of the would-be killers, launching a campaign
-        of bloody revenge.","popularity":129.885,"poster_path":"/3bhkrj58Vtu7enYsRolD1fZdja1.jpg","release_date":"1972-03-14","title":"The
-        Godfather","video":false,"vote_average":8.712,"vote_count":17640},{"adult":false,"backdrop_path":"/kGzFbGhp99zva6oZODW5atUtnqi.jpg","genre_ids":[18,80],"id":240,"original_language":"en","original_title":"The
+        of bloody revenge.","popularity":112.392,"poster_path":"/3bhkrj58Vtu7enYsRolD1fZdja1.jpg","release_date":"1972-03-14","title":"The
+        Godfather","video":false,"vote_average":8.712,"vote_count":17684},{"adult":false,"backdrop_path":"/kGzFbGhp99zva6oZODW5atUtnqi.jpg","genre_ids":[18,80],"id":240,"original_language":"en","original_title":"The
         Godfather Part II","overview":"In the continuing saga of the Corleone crime
         family, a young Vito Corleone grows up in Sicily and in 1910s New York. In
         the 1950s, Michael Corleone attempts to expand the family business into Las
-        Vegas, Hollywood and Cuba.","popularity":80.308,"poster_path":"/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg","release_date":"1974-12-20","title":"The
-        Godfather Part II","video":false,"vote_average":8.597,"vote_count":10690},{"adult":false,"backdrop_path":"/zNnjHLDtV8Ti3aworltaeaLMov4.jpg","genre_ids":[80,18,53],"id":242,"original_language":"en","original_title":"The
+        Vegas, Hollywood and Cuba.","popularity":66.104,"poster_path":"/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg","release_date":"1974-12-20","title":"The
+        Godfather Part II","video":false,"vote_average":8.596,"vote_count":10713},{"adult":false,"backdrop_path":"/zNnjHLDtV8Ti3aworltaeaLMov4.jpg","genre_ids":[80,18,53],"id":242,"original_language":"en","original_title":"The
         Godfather Part III","overview":"In the midst of trying to legitimize his business
         dealings in 1979 New York and Italy, aging mafia don, Michael Corleone seeks
-        forgiveness for his sins while taking a young protege under his wing.","popularity":55.733,"poster_path":"/lm3pQ2QoQ16pextRsmnUbG2onES.jpg","release_date":"1990-12-25","title":"The
-        Godfather Part III","video":false,"vote_average":7.421,"vote_count":5378},{"adult":false,"backdrop_path":null,"genre_ids":[80,35],"id":1050474,"original_language":"en","original_title":"The
+        forgiveness for his sins while taking a young protege under his wing.","popularity":55.047,"poster_path":"/lm3pQ2QoQ16pextRsmnUbG2onES.jpg","release_date":"1990-12-25","title":"The
+        Godfather Part III","video":false,"vote_average":7.422,"vote_count":5390},{"adult":false,"backdrop_path":null,"genre_ids":[80,35],"id":1050474,"original_language":"en","original_title":"The
         Godfather","overview":"An angry comedy set in the world of really organized
-        crime.","popularity":1.085,"poster_path":"/hGiNkRgXTkF4C6WplyPrglEKtd0.jpg","release_date":"2023-01-28","title":"The
+        crime.","popularity":1.4,"poster_path":"/hGiNkRgXTkF4C6WplyPrglEKtd0.jpg","release_date":"2023-01-28","title":"The
         Godfather","video":false,"vote_average":0.0,"vote_count":0},{"adult":false,"backdrop_path":"/fE0Xmb0GaAm1R5NkrMuPezjoGwS.jpg","genre_ids":[28,35,53],"id":70829,"original_language":"ko","original_title":"The
         Last Godfather","overview":"Young-goo the son of mafia boss Don Carini, is
         too foolish to be part of the mafia elite. One day, Young-goo comes to his
@@ -84,20 +82,20 @@ http_interactions:
         later, Young-goo accidentally rescues Nancy, the only daughter of Don Bonfante,
         the boss of a rival mafia family. But Vinnie, an under-boss of the Bonfante
         family kidnapped her and fabricates that Young-goo has taken her. Vinnie''s
-        behavior provokes an armed conflict between the two families.","popularity":1.924,"poster_path":"/zLcKGxKn8qgrGaUZAWZY3Nvi5fr.jpg","release_date":"2010-12-29","title":"The
+        behavior provokes an armed conflict between the two families.","popularity":2.108,"poster_path":"/zLcKGxKn8qgrGaUZAWZY3Nvi5fr.jpg","release_date":"2010-12-29","title":"The
         Last Godfather","video":false,"vote_average":4.7,"vote_count":13},{"adult":false,"backdrop_path":null,"genre_ids":[28,80,18],"id":79026,"original_language":"en","original_title":"El
         padrino","overview":"In the streets of East Los Angeles, Manny is a formidable
         drug dealer. Impressed by his extravagant lifestyle and prowess, his young
         son, Kilo, yearns to follow in his footsteps. Kilo resolves to learn how to
         prosper in the drug world, and his new life as a dealer begins. In a world
-        where a man wants everything, he may end up with nothing.","popularity":9.726,"poster_path":"/10J7EQ8WvMYku8lcZrLewV2Ko4I.jpg","release_date":"2004-09-27","title":"El
+        where a man wants everything, he may end up with nothing.","popularity":14.184,"poster_path":"/10J7EQ8WvMYku8lcZrLewV2Ko4I.jpg","release_date":"2004-09-27","title":"El
         padrino: The Latin Godfather","video":false,"vote_average":6.8,"vote_count":31},{"adult":false,"backdrop_path":"/tYjyk4Ij7CwVOn2ovcXdRYffR9k.jpg","genre_ids":[80,18],"id":364150,"original_language":"en","original_title":"The
         Godfather Trilogy: 1901-1980","overview":"The multigenerational saga of the
         rise and fall of the Corleone crime family. Story is told in chronological
-        order, and numerous scenes that were deleted from each film have been restored.","popularity":11.478,"poster_path":"/rwEP0RwpF2mKGRbs7jerdC4aeMB.jpg","release_date":"1992-10-17","title":"The
+        order, and numerous scenes that were deleted from each film have been restored.","popularity":12.727,"poster_path":"/rwEP0RwpF2mKGRbs7jerdC4aeMB.jpg","release_date":"1992-10-17","title":"The
         Godfather Trilogy: 1901-1980","video":true,"vote_average":8.9,"vote_count":140},{"adult":false,"backdrop_path":"/3otb50i2hzoToonuOaKn1ZQws9u.jpg","genre_ids":[99,10402],"id":606215,"original_language":"en","original_title":"The
         Black Godfather","overview":"Follows the life of Clarence Avant, the ultimate,
-        uncensored mentor and behind-the-scenes rainmaker in music, film, TV and politics.","popularity":5.32,"poster_path":"/3BQArnXPwM5nHeS1tlGKLY7eapP.jpg","release_date":"2019-06-07","title":"The
+        uncensored mentor and behind-the-scenes rainmaker in music, film, TV and politics.","popularity":5.49,"poster_path":"/3BQArnXPwM5nHeS1tlGKLY7eapP.jpg","release_date":"2019-06-07","title":"The
         Black Godfather","video":false,"vote_average":6.8,"vote_count":26},{"adult":false,"backdrop_path":null,"genre_ids":[99],"id":294636,"original_language":"en","original_title":"The
         Godfather Legacy","overview":"THE GODFATHER LEGACY goes deep inside Francis
         Ford Coppola''s epic saga about the Corleone crime family and reveals how
@@ -108,36 +106,36 @@ http_interactions:
         Shire, Joe Mantegna, et al.), law enforcement officials and even former Mafia
         members. This feature length documentary illustrates why The Godfather trilogy
         continues to entertain and fascinate audiences and how it continues to impact
-        the way society views everything from capitalism to crime.","popularity":3.504,"poster_path":"/9y9w5prvVjBtwWl9TNtvThL0NNi.jpg","release_date":"2012-07-12","title":"The
+        the way society views everything from capitalism to crime.","popularity":3.517,"poster_path":"/9y9w5prvVjBtwWl9TNtvThL0NNi.jpg","release_date":"2012-07-12","title":"The
         Godfather Legacy","video":false,"vote_average":7.0,"vote_count":15},{"adult":false,"backdrop_path":"/c1vrJxyuKhswMm9IbRJJhsFXm0I.jpg","genre_ids":[99],"id":56205,"original_language":"en","original_title":"''The
         Godfather'' Family: A Look Inside","overview":"A documentary on the making
         of the three Godfather films, with interviews and recollections from the film
         makers and cast. This feature also includes the original screen tests of some
         of the actors for \"The Godfather\" film, and some candid moments on the set
-        of \"The Godfather: Part III.\"","popularity":5.139,"poster_path":"/2Ex3ynNc95pxkeLmwvGeYVWjKta.jpg","release_date":"1990-07-12","title":"''The
+        of \"The Godfather: Part III.\"","popularity":3.536,"poster_path":"/2Ex3ynNc95pxkeLmwvGeYVWjKta.jpg","release_date":"1990-07-12","title":"''The
         Godfather'' Family: A Look Inside","video":false,"vote_average":7.743,"vote_count":35},{"adult":false,"backdrop_path":"/pS8xPQ1HFsiiKfamKcLoh3yYVNJ.jpg","genre_ids":[99,10402],"id":485918,"original_language":"en","original_title":"The
         Godfathers of Hardcore","overview":"Documentary following Roger Miret and
         Vinnie Stigma of the band, Agnostic Front who played a key role in defining,
         shaping and establishing the sound and cultural code of conduct for the still-thriving
         movement. Unlike the dozens of bands that have come and gone, Agnostic Front
-        is still going strong.","popularity":3.857,"poster_path":"/xs0xxDawafML2seVqby8K0qWeRz.jpg","release_date":"2018-12-12","title":"The
+        is still going strong.","popularity":2.459,"poster_path":"/xs0xxDawafML2seVqby8K0qWeRz.jpg","release_date":"2018-12-12","title":"The
         Godfathers of Hardcore","video":false,"vote_average":6.5,"vote_count":10},{"adult":false,"backdrop_path":null,"genre_ids":[35],"id":260889,"original_language":"it","original_title":"L''altra
         faccia del padrino","overview":"The Godfather Don Vito Monreale knows, by
         chance, the Italian-American singer Nick Bouillon. Since the two are alike,
-        Don Vito decided to exploit this similarity in his favour.","popularity":2.371,"poster_path":"/yFI6AyrblDaTkJu3iYpZhdSp8wx.jpg","release_date":"1973-05-03","title":"The
+        Don Vito decided to exploit this similarity in his favour.","popularity":3.125,"poster_path":"/yFI6AyrblDaTkJu3iYpZhdSp8wx.jpg","release_date":"1973-05-03","title":"The
         Funny Face of the Godfather","video":false,"vote_average":2.0,"vote_count":1},{"adult":false,"backdrop_path":"/awi1iAqxSDDrC7eF7xEY0uQCgsB.jpg","genre_ids":[28,80,53],"id":80755,"original_language":"en","original_title":"The
         Black Godfather","overview":"The heroes in The Black Godfather are members
         of an African-American criminal organization. Like Brando in The Godfather,
         they''re not averse to robbery and murder, but they do draw the line at narcotics.
         When the Mafia infiltrates the ''hood with dangerous drugs, the Black Godfather
-        (Rod Perry) orders his minions to put an end to this perfidy.","popularity":4.008,"poster_path":"/4B7wQFfKlcAS3QFL95iSnYcdlfJ.jpg","release_date":"1974-09-03","title":"The
+        (Rod Perry) orders his minions to put an end to this perfidy.","popularity":2.446,"poster_path":"/4B7wQFfKlcAS3QFL95iSnYcdlfJ.jpg","release_date":"1974-09-03","title":"The
         Black Godfather","video":false,"vote_average":5.0,"vote_count":9},{"adult":false,"backdrop_path":"/j4wwKS0aokfGe7QDYqU2k6744hi.jpg","genre_ids":[99,27],"id":58862,"original_language":"en","original_title":"Herschell
         Gordon Lewis: The Godfather of Gore","overview":"Take an outrageous ride through
         this wild world of exploitation films with this thoroughly entertaining documentary,
         HERSCHELL GORDON LEWIS – THE GODFATHER OF GORE! Featuring cult director John
         Waters, Drive-In Movie Critic Joe Bob Briggs, Herschell Gordon Lewis himself
         and a “cast of thousands,” you’ll witness the innocent bare-naked era of Nudie-Cuties
-        before Lewis schocked the world with “Blood Feast,” the first ever gore film!","popularity":3.56,"poster_path":"/mzwiMxr0a5xOe3R8d5c2DlkCYzM.jpg","release_date":"2010-06-01","title":"Herschell
+        before Lewis schocked the world with “Blood Feast,” the first ever gore film!","popularity":1.731,"poster_path":"/mzwiMxr0a5xOe3R8d5c2DlkCYzM.jpg","release_date":"2010-06-01","title":"Herschell
         Gordon Lewis: The Godfather of Gore","video":false,"vote_average":6.2,"vote_count":20},{"adult":false,"backdrop_path":null,"genre_ids":[99,36],"id":454229,"original_language":"en","original_title":"The
         Medici: Godfathers of the Renaissance","overview":"From a small Italian community
         in 15th-century Florence, the Medici family would rise to rule Europe in many
@@ -145,15 +143,15 @@ http_interactions:
         amass unparalleled wealth and unprecedented power. They would also ignite
         the most important cultural and artistic revolution in Western history --
         the European Renaissance. But the forces of change the Medici helped unleash
-        would one day topple their ordered world.","popularity":1.033,"poster_path":"/1d9JXkKlFS9c1mxdENuGlogWnUD.jpg","release_date":"2004-02-04","title":"The
+        would one day topple their ordered world.","popularity":1.083,"poster_path":"/1d9JXkKlFS9c1mxdENuGlogWnUD.jpg","release_date":"2004-02-04","title":"The
         Medici: Godfathers of the Renaissance","video":false,"vote_average":8.0,"vote_count":4},{"adult":false,"backdrop_path":null,"genre_ids":[80,28],"id":90020,"original_language":"it","original_title":"La
         mano lunga del padrino","overview":"A  treacherous low-level mafioso greedily
         rips off a shipment of arms from his powerful godfather and tries to sell
-        them to an especially dubious group of Arabs","popularity":0.836,"poster_path":"/eRwiJc2cFguRcx3sxNOIh63gCfJ.jpg","release_date":"1972-08-11","title":"The
+        them to an especially dubious group of Arabs","popularity":0.84,"poster_path":"/eRwiJc2cFguRcx3sxNOIh63gCfJ.jpg","release_date":"1972-08-11","title":"The
         Long Arm of the Godfather","video":false,"vote_average":0.0,"vote_count":0},{"adult":false,"backdrop_path":null,"genre_ids":[53,28,80,18],"id":260892,"original_language":"it","original_title":"L''amico
         del padrino","overview":"Richard Harrison is the Mob hit man who finds friendships
         can get you into trouble when he meets an old buddy who turns out to be part
-        of an opposing family!","popularity":1.176,"poster_path":"/cPii9mxWJpcvwN72TlNLEGIFWVo.jpg","release_date":"1972-12-24","title":"The
+        of an opposing family!","popularity":1.4,"poster_path":"/cPii9mxWJpcvwN72TlNLEGIFWVo.jpg","release_date":"1972-12-24","title":"The
         Godfather''s Friend","video":false,"vote_average":2.0,"vote_count":1},{"adult":false,"backdrop_path":"/mDMCET9Ens5ANvZAWRpluBsMAtS.jpg","genre_ids":[80,18],"id":970689,"original_language":"en","original_title":"The
         Godfather 1901–1959: The Complete Epic","overview":"The Godfather 1901–1959:
         The Complete Epic is a reduced, 386-minute version of the 1977 television
@@ -163,20 +161,20 @@ http_interactions:
         a single segment. In January 2016, HBO aired the Epic in its uncut and uncensored
         format, later making it available on its streaming platforms. The HBO showing
         contained most of the known deleted scenes, thereby lengthening the runtime
-        of the Epic from its video release to 423 minutes.","popularity":1.49,"poster_path":"/DGCsKaQgcp4QkX7ulL1BMbkIkr.jpg","release_date":"1981-03-24","title":"The
+        of the Epic from its video release to 423 minutes.","popularity":0.698,"poster_path":"/DGCsKaQgcp4QkX7ulL1BMbkIkr.jpg","release_date":"1981-03-24","title":"The
         Godfather 1901–1959: The Complete Epic","video":true,"vote_average":10.0,"vote_count":1},{"adult":false,"backdrop_path":null,"genre_ids":[],"id":526803,"original_language":"en","original_title":"Fred:
         The Godfather of British Crime","overview":"This is an examination into the
         psyche of former London gangster Freddie Foreman: 85 years old, allegedly responsible
         for multiple murders, and nearing the end of his life. Fred is the only gangster
         who lived through the turbulent history of the British underworld and survived
-        to tell the tale.","popularity":1.712,"poster_path":"/eNIE8eB38KAjZuye58wXFDJP79n.jpg","release_date":"2018-04-20","title":"Fred:
+        to tell the tale.","popularity":1.527,"poster_path":"/eNIE8eB38KAjZuye58wXFDJP79n.jpg","release_date":"2018-04-20","title":"Fred:
         The Godfather of British Crime","video":false,"vote_average":7.2,"vote_count":6},{"adult":false,"backdrop_path":"/7qKkAKYhnIqZMQ9hWVUZ1zV6kLb.jpg","genre_ids":[80],"id":260872,"original_language":"it","original_title":"I
         contrabbandieri di Santa Lucia","overview":"A revolution in Iran halts a heroin
         shipment, but an alliance of crime families is set on getting it to the US.  They
         decide to run the drug through an unsuspecting network of good-natured, local
         smugglers in Naples, while an international anti-narcotics agent rushes to
         shut their operation down.  Betrayals and divided loyalties lead to a  final,
-        bloody confrontation in America.","popularity":2.35,"poster_path":"/n8ZKrhC2zJCsOMPel882EPMDZyj.jpg","release_date":"1979-08-24","title":"The
+        bloody confrontation in America.","popularity":0.751,"poster_path":"/oDpqi8ktkScK2Y5IK1LomLfmEMZ.jpg","release_date":"1979-08-24","title":"The
         New Godfathers","video":false,"vote_average":6.5,"vote_count":3}],"total_pages":5,"total_results":88}'
-  recorded_at: Fri, 24 Mar 2023 01:13:08 GMT
+  recorded_at: Tue, 04 Apr 2023 22:47:09 GMT
 recorded_with: VCR 6.1.0

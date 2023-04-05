@@ -3,7 +3,7 @@ require "rails_helper"
 RSpec.describe type: :feature do
   describe "As a visitor" do
     describe "When I visit the '/users/:id/discover' path" do
-      let!(:zoidberg) { User.create!(name: "Zoidberg", email: "doc_z_berg@gmail.com") }
+      let!(:zoidberg) { User.create!(name: "Zoidberg", email: "doc_z_berg@gmail.com", password: "drz_") }
       before :each do
         visit "/users/#{zoidberg.id}/discover"
       end

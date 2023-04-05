@@ -1,7 +1,7 @@
 require "rails_helper"
 
 RSpec.describe "Discover Movies Page" do
-  let!(:zoidberg) { User.create!(name: "Zoidberg", email: "doc_z_berg@gmail.com") }
+  let!(:zoidberg) { User.create!(name: "Zoidberg", email: "doc_z_berg@gmail.com", password: "drz_berg23") }
   describe "Top 20 Movies", :vcr do
     it "should be able to click on top movies button and be redirected to the movies result page" do
       visit "/users/#{zoidberg.id}/discover"
